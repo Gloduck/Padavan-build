@@ -88,11 +88,11 @@ jobs:
         ##usb##
         echo "CONFIG_FIRMWARE_ENABLE_USB=y" >> .config  #Enable USB support
 
-		##smb##
-		echo "CONFIG_FIRMWARE_INCLUDE_SMBD=y" >> .config  #SMB (and WINS) server. ~1.5MB
+	##smb##
+	echo "CONFIG_FIRMWARE_INCLUDE_SMBD=y" >> .config  #SMB
 		
-		##ftp##
-		echo "CONFIG_FIRMWARE_INCLUDE_FTPD=y" >> .config  #FTP server. ~0.2MB
+	##ftp##
+	echo "CONFIG_FIRMWARE_INCLUDE_FTPD=y" >> .config  #FTP server. ~0.2MB
 
         ##流控QOS##
         echo "CONFIG_FIRMWARE_INCLUDE_SQM=n" >> .config #SQM QOS#CPU超频
