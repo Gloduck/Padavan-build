@@ -82,8 +82,8 @@ jobs:
           echo "CONFIG_FIRMWARE_INCLUDE_MENTOHUST=n" >> .config #mentohust
 
           ##aria2##
-          echo "CONFIG_FIRMWARE_INCLUDE_ARIA=y" >> .config
-          echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=y" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_ARIA=n" >> .config
+          echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=n" >> .config
 
           ##usb##
           echo "CONFIG_FIRMWARE_ENABLE_USB=y" >> .config
